@@ -1,5 +1,5 @@
 body {
-	background-image: url("fond.jpg");
+	background-image: url(fond.jpg);
 }
 .encadre {
 	border : 2px solid black;
@@ -34,4 +34,5 @@ p {
 }
 h2 {
 	padding-right : 4px;
+
 }
