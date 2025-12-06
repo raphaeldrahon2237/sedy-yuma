@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogue de Produits</title>
+  <link rel="stylesheet" href="produits.css">
+  <link rel="javascript" href="js/site.js">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <h1>SEDY & YUMA</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="produits.html">Produit</a></li>
+      <li><a href="propos.html">A propos</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="product-list">
+  <div class="product-card">
+    <img src="pots.jfif" alt="Produit 1">
+    <div class="product-info">
+      <h2>Produit 1</h2>
+      <p class="prix">€</p>
+      <p class="description">Description</p>
+      <div class="actions">
+        <button class="fav-btn" onclick="ajouterFavoris(1)">Ajouter au favoris ♥</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <img src="pots.jfif" alt="Produit 2">
+    <div class="product-info">
+      <h2>Produit 2</h2>
+      <p class="prix"></p>
+      <p class="description">Description</p>
+      <div class="actions">
+        <button class="fav-btn" onclick="ajouterFavoris(2)">Ajouter au favoris ♥</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Plus de produits ici -->
+
+</section>
+
+<script src="app.js"></script>
+
+<footer>
+  <p>&copy; 2025 Ma Boutique - Tous droits réservés</p>
+</footer>
+
+
+</body>
+</html>
